@@ -41,3 +41,14 @@ template Powers() {
     
 }
 component main = Powers();
+
+/* 
+This example usefully illustrates that any circuit that uses variables in its computation can be rewritten to not include variables.
+
+Variables build helper code that exists outside the R1CS. They help define the circuit, but they are not part of the circuit.
+
+The variable var i was simply bookkeeping to track the loop iteration while constructing the circuit, it isn’t part of the constraints.
+*/
+
+
+

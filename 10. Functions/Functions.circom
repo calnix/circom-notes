@@ -27,4 +27,8 @@ template Average(n) {
     out <== sum * denominator;
 }
 
+<<<<<<< HEAD
 component main = Average(5);
+=======
+component main  = Average(5);
+>>>>>>> f7f706ed0e239f6bd23114a44e871886b810ba00
